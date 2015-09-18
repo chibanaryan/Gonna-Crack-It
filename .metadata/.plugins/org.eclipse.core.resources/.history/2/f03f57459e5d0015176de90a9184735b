@@ -35,11 +35,11 @@ public class ArraysAndStrings {
 	
 	public static boolean PermutationsTryOne(String s1, String s2) {
 		int[] asciiCount = new int[127];
-		//initializing array of alphabet count
+		//initializing array of alphabet values
 		for (char c : s1.toCharArray()) {
 			int diff = c;
 			System.out.println(diff + " is the ascii value");
-			asciiCount[diff]++;
+			
 		}
 		
 		
